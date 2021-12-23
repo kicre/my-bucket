@@ -1,1 +1,1 @@
-# my-buckeet
+# my-bucket
