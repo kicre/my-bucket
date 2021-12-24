@@ -1,0 +1,21 @@
+{
+    "homepage":"https://github.com/the-via/releases/releases",
+    "license":"",
+    "version":"1.3.1",
+    "url":"https://github.com/the-via/releases/releases/download/v1.3.1/via-1.3.1-win.msi",
+    "hash":"TmG2yq62qcTLxYVkpZa7PBVvtqJoWTooeSMAXVIva+AVKZ+M3+WvaJ1nMP9+7aTzyICJKpa776Z8/7XXvk9UTQ==",
+    "bin":"via.exe",
+    "shortcuts":[
+        [
+            "via.exe",
+            "via"
+        ]
+    ],
+    "checkver":{
+        "url":"https://github.com/the-via/releases/releases/",
+        "re":"via-([\\d.]+)-win.msi"
+    }
+    "autoupdate":{
+        "url":"https://github.com/the-via/releases/releases/download/v1.3.1/via-1.3.1-win.msi"
+    }
+}
